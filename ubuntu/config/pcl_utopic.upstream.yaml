@@ -3,4 +3,4 @@ method: http://ppa.launchpad.net/v-launchpad-jochen-sprickerhof-de/pcl/ubuntu
 suites: [utopic]
 component: main
 architectures: [i386, amd64, source]
-filter_formula: Package (% *pcl*1.7* )
+filter_formula: Package (% *pcl*1.7* ) | Package (== libpcl-dev)
