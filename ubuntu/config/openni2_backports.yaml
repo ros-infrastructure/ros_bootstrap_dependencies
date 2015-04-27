@@ -1,0 +1,6 @@
+name: openni2_backports
+method: http://ppa.launchpad.net/v-launchpad-jochen-sprickerhof-de/for-ros/ubuntu 
+suites: [trusty, utopic, vivid]
+component: main
+architectures: [i386, amd64, source]
+filter_formula: Package (% * )
